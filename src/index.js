@@ -1,8 +1,7 @@
-import { add, subtract } from "./helpers"
-
-const addResults = add(20, 1)
-const subtractResults = subtract(20, 1)
-
-console.log('hello word')
-console.log('addResults: ', addResults)
-console.log('subtractResults: ', subtractResults)
+import React from 'react';
+import ReactDOM from 'react-dom';
+ 
+ReactDOM.render(
+  <h1>Hello React with Webpack from scratch</h1>,
+  document.getElementById('root')
+);
